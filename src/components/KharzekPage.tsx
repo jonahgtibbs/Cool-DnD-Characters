@@ -9,7 +9,7 @@ export const KharzekPage: React.FC = () => {
       <About />
       <div className="max-w-4xl mx-auto text-center mt-12">
         <img
-          src="/images/kharzek.png"
+          src="/images/kharzek.png.png"
           alt="Kharzek the Cipherblade"
           className="mx-auto rounded-2xl shadow-lg mb-6"
         />
