@@ -44,8 +44,8 @@ export const Home: React.FC = () => {
 
 // Component: src/components/KharzekPage.tsx
 import React from 'react';
-import { Hero } from './Hero';
-import { About } from './About';
+import { Hero } from './components/Hero';
+import { About } from './components/About';
 
 export const KharzekPage: React.FC = () => {
   return (
