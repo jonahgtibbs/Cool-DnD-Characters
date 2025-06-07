@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Hero: React.FC = () => {
+export const KharzekHero: React.FC = () => {
   return (
     <div className="text-center py-24 px-6 bg-gradient-to-b from-black to-gray-900">
       <h1 className="text-5xl md:text-6xl font-bold mb-6">Kharzek the Cipherblade</h1>
