@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Home } from './components/Home';
 import { KharzekPage } from './components/KharzekPage';
+import { CaelumPage } from './components/CaelumPage';
 import { Footer } from './components/Footer';
 
 const App: React.FC = () => {
@@ -12,6 +13,7 @@ const App: React.FC = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/kharzek" element={<KharzekPage />} />
+          <Route path="/caelum" element={<CaelumPage />} />
         </Routes>
         <Footer />
       </div>
