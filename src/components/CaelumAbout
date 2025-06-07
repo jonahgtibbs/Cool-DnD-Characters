@@ -5,7 +5,10 @@ export const CaelumAbout: React.FC = () => {
     <section className="py-16 px-6 max-w-4xl mx-auto">
       <h2 className="text-3xl font-semibold mb-4">Origin</h2>
       <p className="mb-6">
-        An Aasimar Psion sculpted from legacy and light, bending thought like metal, with a gaze that sees through lies, veils, and time.
+        Born beneath twin moons in the mirrored spires of Elyria’s Mindspire Citadel, 
+        Caelum was once heir to a celestial chorus—but renounced his place to wander 
+        fractured dimensions. In the forgotten Annexes, where psionic echoes never die, 
+        he awakened to the Mindshaper’s path.
       </p>
 
       <h2 className="text-3xl font-semibold mb-4">Abilities</h2>
