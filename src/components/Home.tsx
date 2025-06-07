@@ -19,7 +19,7 @@ export const Home: React.FC = () => {
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
             <h2 className="text-white text-2xl font-semibold">Kharzek</h2>
           </div>
-      <div className="flex justify-center gap-6 flex-wrap">
+        </Link>
         <Link to="/caelum" className="relative w-60 h-80 group overflow-hidden rounded-xl shadow-lg">
           <img
             src="/images/Caelum.png"
