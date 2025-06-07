@@ -7,12 +7,6 @@ export const KharzekPage: React.FC = () => {
     <div className="px-6 pb-12">
       <Hero />
       <About />
-      <p>Direct test:</p>
-      <img src="https://cool-dnd-characters.onrender.com/images/Kharzek.png" alt="Direct Test" width={300} />
-
-      <a href="https://cool-dnd-characters.onrender.com/sheets/Kharzek.pdf" target="_blank" rel="noopener noreferrer">
-        Open PDF directly
-      </a>
       <div className="max-w-4xl mx-auto text-center mt-12">
         <img
           src={`${window.location.origin}/images/Kharzek.png`}
