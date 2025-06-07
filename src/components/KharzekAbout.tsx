@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const About: React.FC = () => {
+export const KharzekAbout: React.FC = () => {
   return (
     <section className="py-16 px-6 max-w-4xl mx-auto">
       <h2 className="text-3xl font-semibold mb-4">Origin</h2>
