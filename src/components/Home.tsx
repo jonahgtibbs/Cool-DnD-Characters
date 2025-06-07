@@ -19,6 +19,16 @@ export const Home: React.FC = () => {
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
             <h2 className="text-white text-2xl font-semibold">Kharzek</h2>
           </div>
+      <div className="flex justify-center gap-6 flex-wrap">
+        <Link to="/caelum" className="relative w-60 h-80 group overflow-hidden rounded-xl shadow-lg">
+          <img
+            src="/images/Caelum.png"
+            alt="Caelum"
+            className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-105"
+          />
+          <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+            <h2 className="text-white text-2xl font-semibold">Caelum</h2>
+          </div>
         </Link>
         {/* Add more character entries here */}
       </div>
