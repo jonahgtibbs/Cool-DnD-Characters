@@ -1,5 +1,5 @@
 import React from 'react';
-import { Hero } from './Hero';
+import { KharzekHero } from './KharzekHero';
 import { About } from './About';
 
 export const KharzekPage: React.FC = () => {
